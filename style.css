@@ -204,6 +204,7 @@ main > .text::selection{
 
 .diplayover.ocultomenu{
     filter: opacity(0);
+    display:none;
 
 }
 
@@ -376,4 +377,5 @@ a{
     }
 
 }
+
 
