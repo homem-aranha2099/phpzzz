@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="chapeu">
+        <audio class="audio" src="assets/elefante.mp3"></audio>
+        <div class="pai-menu" >
+            <svg onmouseover="mostrarDescricao()" onclick="menuAtivar()" onmouseout="ocultarDescricao()" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu menu" ><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+            <h2 class="palavra oculto">menu</h2>
+        </div>
+        <div> <h1>PHP</h1> </div>
+        <div class="lifante botao" >
+            
+            <div id="sunmoon">
+                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon-icon lucide-moon moon dark"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            </div> 
+            
+        </div>
+        <div class="lifante som">
+            <img src="assets/fafant.png"  height="50px" alt="">
+        </div>
+    </header>
+    <div class="diplayover ocultomenu" id="menux">
+        <a href="#php" class="as">O que é</a>
+        <a href="#criador" class="as">Quem criou?</a>
+        <a href="#historia" class="as">História</a>
+        <a href="#mercado" class="as">Mercado de trabalho</a>
+        <a href="#profissional" class="as">Profissional</a>
+    </div>
+    <main>
+        <div class="top oculto">
+            <div>
+                <h1>PHP</h1>
+                <p>Criado por Rasmus Lerdorf</p>
+            </div>
+        </div>
+        <div class="text">
+            <!-- 1 -->
+            <div class="topico " id="php">
+                <div class="p1">
+                    <div class="imagem">
+                        <img src="assets\programação.png" height="400"  alt="Linhas de código">
+                        <p>Linhas de código de programação</p>
+                    </div>
+                    <div class="info">
+                        <h2>O que é o PHP?</h2>
+                        <br>
+                        <p class="fonteVariavel">
+                            <br>
+                            O PHP (Hypertext Preprocessor) é uma linguagem de programação voltada para o desenvolvimento web, criada originalmente em 1994 por Rasmus Lerdorf.
+                            Na época, ele queria apenas monitorar acessos ao seu site pessoal, mas o projeto cresceu tanto que se transformou em uma das linguagens mais usadas no mundo para criar sites dinâmicos e sistemas online.
+                            <br><br>
+                            O PHP é executado no lado do servidor (server-side), o que significa que o código é processado antes de ser enviado ao navegador. Isso permite criar páginas personalizadas, lidar com formulários, autenticação de usuários, envio de e-mails, e integração com bancos de dados — tudo de forma automática e dinâmica.
+                            <br><br>
+                            Com o passar dos anos, o PHP evoluiu bastante. Da sua versão simples e limitada nos anos 90, ele se tornou uma linguagem poderosa, moderna e segura, especialmente com o lançamento do *PHP 7* e *PHP 8, que trouxeram **melhor desempenho, suporte a tipagem, programação orientada a objetos e um motor JIT (Just-In-Time) que aumentou ainda mais a velocidade de execução
+                            <br><br>
+                            Em 2025, o PHP continua sendo uma linguagem de programação relevante, com a versão 8.4 trazendo melhorias de desempenho e recursos modernos, como a programação assíncrona. A linguagem é uma escolha sólida para iniciantes e experientes devido à sua curva de aprendizado e à alta demanda no mercado de trabalho, impulsionada pela grande quantidade de sites já existentes e pelo uso em frameworks populares como Laravel e Symfony. 
+                            <br><br>
+                            O PHP também se consolidou como uma linguagem extremamente versátil, capaz de atender desde pequenos sites pessoais até grandes aplicações corporativas e plataformas de e-commerce. Seu ecossistema é rico e diversificado, contando com uma vasta gama de bibliotecas, pacotes e frameworks que facilitam o desenvolvimento de projetos complexos com rapidez e segurança. Além disso, a comunidade ativa contribui constantemente com atualizações, documentação e suporte, garantindo que o PHP continue evoluindo e se adaptando às necessidades do mercado.
+                            <br><br>
+                            Outro ponto importante é a integração do PHP com tecnologias modernas. Ele funciona perfeitamente em conjunto com bancos de dados relacionais como MySQL e PostgreSQL, bem como com sistemas NoSQL e APIs externas. Essa capacidade de se conectar facilmente a outros serviços e plataformas torna o PHP uma ferramenta confiável para construir aplicações escaláveis, interativas e dinâmicas, reforçando seu papel central no desenvolvimento web mesmo décadas após sua criação.
+                        </p>
+                        <br>
+                        <a href="https://pt.wikipedia.org/wiki/PHP">Clique aqui para saber mais sobre o PHP</a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+
+            <!-- 2 -->
+            <div class="topico" id="criador">
+                <div class="p1">
+                    <div class="imagem reverse">
+                        <img src="assets\criadorphp.jpg"  height="400"  alt="Criador do PHP">
+                        <p>Rasmus Lerdorf no escritório da Etsy em Dublin, imagens via Luke Maxwell</p>
+                    </div>
+                    <div class="info">
+                        <h2>Quem criou o PHP?</h2>
+                        <br><br>
+                        <p class="fonteVariavel">
+                        Rasmus Lerdorf nasceu em Qeqertarsuaq, no dia 22 de novembro de 1968, e se tornou um programador canadiano-dinamarquês de grande destaque. Ele é reconhecido por ter criado a primeira versão da linguagem de programação PHP, um feito que marcaria profundamente a história da web. Nos anos seguintes, Lerdorf colaborou com os israelitas fundadores da Zend Technologies, Andi Gutmans e Zeev Suraski, no desenvolvimento das versões seguintes do PHP, contribuindo para que a linguagem se tornasse uma das mais utilizadas no mundo. Entre setembro de 2002 e novembro de 2009, trabalhou para a Yahoo!, e em 2012 anunciou pelo Twitter que iniciaria um novo ciclo profissional na Etsy.
+                        <br><br>
+                        Mesmo em 2025, Rasmus Lerdorf mantém sua presença ativa no cenário da tecnologia. Ele é frequentemente convidado para palestras e eventos, incluindo celebrações marcantes como os 25 anos do PHP. Nessas ocasiões, a relevância da linguagem se destaca, não apenas por sua utilização contínua, mas também pelo legado de aprendizado e evolução que oferece aos desenvolvedores. A trajetória do PHP é celebrada não apenas como uma ferramenta prática, mas também como um estudo sobre boas práticas, adaptação e persistência no desenvolvimento web.
+                        <br><br>
+                        Aprender PHP em 2025 ainda faz sentido, pois a linguagem mantém uma comunidade robusta, suporte a projetos modernos e uma grande base de aplicações existentes. O legado de Rasmus Lerdorf é, portanto, profundo: ele é lembrado como um dos maiores nomes da história da computação, responsável por criar uma ferramenta que moldou o desenvolvimento de sites e sistemas por décadas. Seu trabalho permanece uma referência, inspirando tanto profissionais iniciantes quanto veteranos a explorar o potencial da programação web.
+                        <br><br>
+                        Além de seu impacto técnico, Lerdorf também é reconhecido por seu papel como mentor e inspiração para novos programadores. Seu percurso mostra que a inovação pode surgir de projetos simples, mas bem executados, e que a colaboração com outros profissionais é fundamental para o crescimento de qualquer linguagem. O PHP, embora frequentemente criticado no passado, tornou-se um exemplo de resiliência tecnológica, mantendo-se relevante e atualizado graças a contribuições constantes da comunidade.
+                        <br><br>
+                        O legado de Lerdorf transcende linhas de código: ele ajudou a consolidar uma cultura de desenvolvimento web mais acessível e democrática. Graças a ele, milhões de sites em todo o mundo são possíveis, e inúmeras carreiras em tecnologia começaram com o aprendizado do PHP. Seu nome permanece associado à criatividade, perseverança e à ideia de que ferramentas bem projetadas podem moldar o futuro da tecnologia por décadas.
+                        </p>
+                        <br>
+                        <a href="https://pt.wikipedia.org/wiki/Rasmus_Lerdorf">Clique aqui para saber mais sobre Rasmus Lerdorf</a>
+                    </div>  
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- 3 -->
+            <div class="topico " id="historia">
+                <div class="p1">
+                    <div class="imagem">
+                        <img src="assets\tecnologia.jpg" height="400" alt="Computadores antigos">
+                        <p>Computadores antigos</p>
+                    </div>
+                    <div class="info">
+                        <h2>História do PHP</h2>
+                        <p class="fonteVariavel">
+                            <br><br>
+                            A história do PHP começa em 1994, quando Rasmus Lerdorf, um programador canadiano-dinamarquês, criou um pequeno conjunto de scripts em Perl para acompanhar as visitas ao seu site pessoal. Esses scripts, que ele chamou de Personal Home Page Tools, tinham uma função simples: registrar quem acessava sua página. No entanto, o projeto cresceu rapidamente, e Rasmus decidiu reescrever o código em C para torná-lo mais eficiente e flexível — assim nascia o PHP/FI, o embrião do que mais tarde se tornaria o PHP moderno.
+                            <br><br>
+                            O sucesso foi tão grande que Lerdorf resolveu disponibilizar o código publicamente, permitindo que outros desenvolvedores o usassem e modificassem. Esse espírito colaborativo foi fundamental para o crescimento da linguagem. Ainda em 1995, ele lançou a versão 1.0, que já permitia criar formulários e interagir com bancos de dados simples. Curiosamente, o PHP não tinha a ambição de ser uma linguagem de programação completa — era apenas um conjunto de ferramentas para facilitar a vida de quem criava sites.
+                            <br><br>
+                            Com o tempo, a comunidade começou a expandir o projeto de forma espontânea. A versão 2.0, lançada em 1997, já era conhecida apenas como “PHP” e trazia recursos mais avançados, além de ser mais estável. Um fato curioso é que o PHP, desde o início, sempre se destacou por sua facilidade de aprendizado. Enquanto outras linguagens exigiam conhecimentos complexos de servidores e compilações, o PHP podia ser testado rapidamente: bastava inserir o código entre as tags &lt;?php ... ?&gt; dentro de um arquivo HTML e ver o resultado. Isso atraiu milhares de programadores iniciantes e ajudou a popularizá-lo.
+                            <br><br>
+                            A virada definitiva veio em 1998, quando dois estudantes israelenses, Andi Gutmans e Zeev Suraski, reescreveram o interpretador do PHP, criando a base do que se tornaria o PHP 3.0. Eles também fundaram a Zend Technologies, que até hoje é uma das principais mantenedoras da linguagem. O nome “PHP” passou a significar oficialmente Hypertext Preprocessor, um trocadilho típico da área de programação, já que o acrônimo contém a própria sigla dentro dele.
+                            <br><br>
+                            Nos anos 2000, o PHP já dominava a web. Em 2004, foi lançado o PHP 5, um marco na história da linguagem, trazendo programação orientada a objetos, suporte a XML e o Zend Engine 2, que aumentou consideravelmente o desempenho. Nesse período, o PHP se consolidou como a base de grandes plataformas — como o WordPress, o Joomla! e o Drupal —, tornando-se praticamente o alicerce da internet moderna. Estima-se que, nessa época, mais de 70% dos sites usavam PHP em algum nível.
+                            <br><br>
+                            Apesar do sucesso, o PHP enfrentou críticas. Muitos desenvolvedores o consideravam “bagunçado” e de difícil manutenção, especialmente em projetos grandes. No entanto, essa percepção começou a mudar com o lançamento do PHP 7, em 2015. Essa versão representou uma verdadeira reconstrução da linguagem, com melhorias drásticas de performance (até duas vezes mais rápido que o PHP 5) e uma tipagem mais forte, o que trouxe mais segurança e previsibilidade ao código.
+                            <br><br>
+                            Uma curiosidade interessante é que o PHP 6 nunca chegou a ser oficialmente lançado. O projeto existiu, mas foi abandonado devido a dificuldades técnicas relacionadas à implementação do suporte completo a Unicode. Quando o PHP 7 surgiu, os desenvolvedores decidiram pular o número 6 para evitar confusão — um fato que até hoje intriga quem estuda a evolução da linguagem.
+                            <br><br>
+                            Com o PHP 8, lançado em 2020, a linguagem finalmente entrou em uma era moderna. Essa versão trouxe o JIT (Just-In-Time Compiler), um mecanismo que compila partes do código em tempo real, tornando a execução muito mais rápida. Além disso, o PHP ganhou recursos como atributos, tipos de união e expressões match, inspiradas em linguagens mais recentes como Python e JavaScript. A partir daí, o PHP deixou de ser visto como uma “linguagem do passado” e voltou ao centro do desenvolvimento web.
+                            <br><br>
+                            Em 2025, o PHP segue firme, agora em sua versão 8.4, incorporando recursos como programação assíncrona e melhorias no tratamento de exceções. Ele continua sendo a base de gigantes como o WordPress, o Facebook (que originalmente foi escrito em PHP) e incontáveis sistemas empresariais. A linguagem se mantém viva não apenas pela tradição, mas pela capacidade de adaptação — uma característica herdada do próprio Lerdorf, que sempre defendeu a simplicidade e a eficiência como princípios fundamentais.
+                            <br><br>
+                            Hoje, o legado do PHP vai muito além do código. Ele representa a democratização da web: permitiu que qualquer pessoa, mesmo sem formação técnica, pudesse criar e publicar conteúdo na internet. De um conjunto de scripts pessoais a uma das linguagens mais utilizadas do mundo, o PHP é um exemplo raro de tecnologia que envelhece bem — reinventando-se constantemente, mas sem perder sua essência. E, como costuma dizer Rasmus Lerdorf, com seu humor característico: “Eu nunca planejei criar uma linguagem de programação. Só queria um site que funcionasse.”
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- 4 -->
+            <div class="topico">
+                <div class="p1" id="mercado">
+                    <div class="imagem reverse">
+                        <img src="assets\trabalho.jpg" height="400" alt="Pessoas trabalho com computadores">
+                        <p>Pessoas trabalho no escritório</p>
+                    </div>
+                    <div class="info">
+                        <h2>Mercado de Trabalho</h2>
+                        <br><br>
+                        <p class="fonteVariavel"> 
+                        O mercado de trabalho para desenvolvedores PHP em 2025 continua relevante e estável. Apesar do surgimento de linguagens mais novas, o PHP ainda sustenta boa parte da internet, com milhões de sites e sistemas corporativos dependentes dele. Essa presença massiva garante uma demanda constante por profissionais, especialmente em manutenção e modernização de plataformas já existentes, além do uso em CMSs populares como WordPress, Drupal e Magento.
+                        <br><br>
+                        Entre as vantagens da linguagem estão a facilidade de aprendizado e a ampla oferta de vagas. O PHP é uma excelente porta de entrada para quem está começando no desenvolvimento web, com grande disponibilidade de material educativo e oportunidades para freelances e desenvolvedores júnior. Além disso, as versões mais recentes — especialmente o PHP 7 e 8 — tornaram a linguagem muito mais rápida, segura e moderna, permitindo o uso em projetos complexos com frameworks como Laravel e Symfony.
+                        <br><br>
+                        Por outro lado, há desafios. O mercado pode ser altamente competitivo, especialmente para iniciantes, e algumas startups e empresas modernas preferem stacks mais recentes, como Node.js ou Go. Ainda assim, profissionais que dominam frameworks modernos e boas práticas de código encontram espaço em corporações e agências digitais que mantêm sistemas em PHP.
+                        <br><br>
+                        O trabalho freelancer também é uma opção forte, já que o PHP é amplamente usado em sites sob demanda e sistemas personalizados. Plataformas de trabalho remoto continuam repletas de projetos na linguagem, com boas oportunidades para quem tem experiência e portfólio sólido.
+                        <br><br>
+                        Em resumo, o PHP segue sendo uma linguagem essencial e versátil, equilibrando tradição e inovação. Oferece estabilidade, uma comunidade ativa e boas perspectivas para quem se mantém atualizado. Embora enfrente concorrência de tecnologias mais novas, o PHP ainda é um dos pilares do desenvolvimento web moderno.
+                        </p>
+                        <br>
+                        <a href="https://kinsta.com/pt/participacao-de-mercado-do-php/">Clique aqui para saber mais sobre o mercado de trabalho com PHP</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- 5 -->
+            <div class="topico">
+                <div class="p1" id="profissional">
+                    <div class="imagem"> 
+                        <img src="assets\progamador.png" height="400" alt="Programador trabalhando no computador com códigos">
+                        <p>Programador trabalhando</p>
+                    </div>
+                    <div class="info">
+                        <h2>O Profissional</h2>
+                        <br><br>
+                        <p class="fonteVariavel">
+                         O profissional de PHP é o desenvolvedor responsável por criar, manter e otimizar sites e sistemas que utilizam essa linguagem no back-end. Ele atua no processamento de dados, na integração com bancos de dados, na criação de APIs e no suporte a plataformas como WordPress e Laravel. Por ser uma linguagem amplamente usada, o programador PHP encontra oportunidades em agências digitais, empresas de tecnologia, e-commerce e até como freelancer, atendendo projetos personalizados.
+                        <br><br>
+                        Esse profissional precisa dominar não apenas o PHP em si, mas também frameworks modernos como Laravel e Symfony, além de ter conhecimentos em HTML, CSS, JavaScript e bancos de dados como MySQL ou PostgreSQL. As versões mais recentes do PHP exigem também uma boa compreensão de programação orientada a objetos, boas práticas de segurança e integração com serviços em nuvem.
+                        <br><br>
+                        O mercado valoriza desenvolvedores PHP que se mantêm atualizados e sabem trabalhar com código limpo e estruturado. Apesar da forte concorrência, o profissional que alia experiência técnica com visão de arquitetura e desempenho encontra boas oportunidades e estabilidade, já que o PHP continua sendo uma das bases mais importantes da web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
