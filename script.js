@@ -31,10 +31,6 @@
             document.querySelector(".palavra").classList.add("oculto");
         }
 
-        document.querySelector(".sandbox").addEventListener("click", () => {
-            window.location.href = "uso.html";
-        })
-
         function menuAtivar(){
             document.getElementById("menux").classList.toggle("ocultomenu");
         }
