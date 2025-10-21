@@ -40,7 +40,6 @@ body{
     margin-top: 30px;
     border-radius:60px;
     box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.6);
-    z-index:999;
 
     /*elementos filhos*/
     display: flex;
@@ -378,6 +377,7 @@ a{
     }
 
 }
+
 
 
 
