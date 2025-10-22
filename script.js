@@ -2,8 +2,11 @@
         
         addEventListener("load", () => {
             document.querySelector(".top").classList.remove("oculto");
+
+
         })
-        
+
+
         let previousScrool = 0;
         document.addEventListener("scroll", () => {
             let currentScrool = window.pageYOffset;
@@ -11,10 +14,13 @@
                 document.querySelector(".chapeu").classList.remove("oculto");
             }else{
                 document.querySelector(".chapeu").classList.add("oculto");
+                document.querySelector(".chapeu.menu").classList.add("oculto");
             }
             previousScrool = currentScrool;
+        })
 
-            
+        document.querySelector(".pai-menu").addEventListener("click", () => {
+            document.querySelector(".chapeu.menu").classList.toggle("oculto");
         })
 
         document.getElementById("sunmoon").addEventListener("click", () => {
@@ -31,15 +37,12 @@
             document.querySelector(".palavra").classList.add("oculto");
         }
 
-        function menuAtivar(){
-            document.getElementById("menux").classList.toggle("ocultomenu");
-        }
+        document.querySelector(".som").addEventListener("click", () => {
+            document.querySelector(".audio").currentTime = 0;
+            document.querySelector(".audio").play();
+        })
 
-document.querySelectorAll(".as").forEach(el => {
-    el.addEventListener("click", () => {
-        document.getElementById("menux").classList.add("ocultomenu");
-    });
-});
+      
         
 
         
