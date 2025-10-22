@@ -37,11 +37,17 @@
             document.querySelector(".palavra").classList.add("oculto");
         }
 
-        document.querySelectorAll(".a").addEventListener("click", () => {
-            document.querySelector(".chapeu").classList.add("oculto");
-            document.querySelector(".chapeu.menu").classList.add("oculto");
-        })
+        document.querySelectorAll(".a").forEach((el) => {
+            el.addEventListener("click", () => {
+                    setTimeout(() => {
+                        document.querySelector(".chapeu").classList.add("oculto");
+                        document.querySelector(".chapeu.menu").classList.add("oculto");
+                    }, 500);
+            });
+        });
 
+
+        
         document.querySelector(".som").addEventListener("click", () => {
             document.querySelector(".audio").currentTime = 0;
             document.querySelector(".audio").play();
@@ -51,5 +57,4 @@
         
 
         
-
 

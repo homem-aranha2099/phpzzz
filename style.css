@@ -297,6 +297,42 @@ a{
     margin-top: 10px;
 }
 
+/*<===============>rodapé<===============>*/
+footer{
+    width: 100%;
+    background-color: var(--phpColor);
+    color: whitesmoke;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+    
+    margin-top: 2%;
+}
+
+footer > p{
+    margin-bottom: 2%;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    width: 90%;
+
+    margin-top:2% ;
+}
+
+footer > div > h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: var(--phpColorShadow);
+}
+
+
 /*<===============>sistema de escolha de tema<===============>*/
 .dark{
     --backGround:#2c2c2c;
@@ -324,7 +360,7 @@ a{
 
 
 /*<===============>configurable mobile<===============>*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     body{
         max-width: 100%;
         background-size: contain;
@@ -382,7 +418,10 @@ a{
         font-size: 11px;
     }
 
+    footer > p{
+        font-size: 10px;
+    }
+
 }
 
     
-
