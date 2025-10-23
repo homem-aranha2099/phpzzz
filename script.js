@@ -42,7 +42,7 @@
                     setTimeout(() => {
                         document.querySelector(".chapeu").classList.add("oculto");
                         document.querySelector(".chapeu.menu").classList.add("oculto");
-                    }, 300;
+                    }, 500);
             });
         });
 
@@ -57,6 +57,4 @@
         
 
         
-
-
 
